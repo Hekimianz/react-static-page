@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#root {
+  height: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.reactLogo {
+  margin-left: 26px;
+  width: 29px;
+}
+
+h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 22.2px;
+  color: #61dafb;
+  line-height: 27px;
+  margin-right: auto;
+  margin-left: 6.6px;
+}
+
+h4 {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #deebf8;
+  line-height: 19px;
+  margin-right: 27px;
+}
+
+.navbarCont {
+  background-color: #21222a;
+  display: flex;
+  height: 91px;
+  align-items: center;
+}
+
+h1 {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 47.2px;
+  margin: 0;
+  letter-spacing: -0.05em;
+}
+
+.list {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.3px;
+  max-width: 400px;
+}
+
+.list > li {
+  padding-block: 10px;
+}
+
+.list > li::marker {
+  color: #61dafb;
+  font-size: 1.4rem;
+}
+
+.mainCont {
+  background-color: #282d35;
+  flex: 1;
+  padding: 57px 27px;
+  background-image: url(/Users/aramhekimian/repos/react-static-page/src/react-icon-large.png);
+  background-repeat: no-repeat;
+  background-position: right 75%;
+}
